@@ -1,13 +1,13 @@
 <?php
 
 /**
- *
- * @package phpBB Extension - mChat - de language
- * @copyright (c) 2016 dmzx - http://www.dmzx-web.net
- * @copyright (c) 2016 kasimi - https://kasimi.net
- * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
- *
- */
+* @version $Id: common.php 169 2018-07-31 16:32:45Z Scanialady $
+* @package phpBB Extension - mChat [German]
+* @copyright (c) 2016 dmzx - https://www.dmzx-web.net
+* @copyright (c) 2016 kasimi - https://kasimi.net
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+*
+*/
 
 if (!defined('IN_PHPBB'))
 {
@@ -31,8 +31,8 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 //
-// Some characters for use
-// ’ » “ ” …
+// Some characters you may want to copy&paste:
+// ‚ ‘ ’ « » „ “ ” …
 
 $lang = array_merge($lang, [
 	'MCHAT_TITLE'					=> 'mChat',
@@ -40,17 +40,17 @@ $lang = array_merge($lang, [
 		0 => 'mChat',
 		1 => 'mChat [<strong>%1$d</strong>]',
 	],
-	'MCHAT_NAVBAR_CUSTOM_PAGE'		=> 'mChat page',
-	'MCHAT_NAVBAR_ARCHIVE'			=> 'Archive',
-	'MCHAT_NAVBAR_RULES'			=> 'Rules',
+	'MCHAT_NAVBAR_CUSTOM_PAGE'		=> 'mChat Seite',
+	'MCHAT_NAVBAR_ARCHIVE'			=> 'Archiv',
+	'MCHAT_NAVBAR_RULES'			=> 'Regeln',
 	
 	// Who is chatting
 	'MCHAT_WHO_IS_CHATTING'			=> 'Wer chattet',
 	'MCHAT_ONLINE_USERS_TOTAL'		=> [
 		0 => 'Niemand ist im Chat',
 		1 => '<strong>%1$d</strong> Benutzer chattet',
-		2 => '<strong>%1$d</strong> Benutzer chatten', 		
-	],
+		2 => '<strong>%1$d</strong> Benutzer chatten', 
+	],	
 	'MCHAT_ONLINE_EXPLAIN'			=> 'basierend auf den aktiven Besuchern der letzten %1$s',
 	'MCHAT_HOURS'					=> [
 		1 => '%1$d Stunde',
@@ -68,7 +68,7 @@ $lang = array_merge($lang, [
 	// Custom translations for administrators
 	'MCHAT_RULES_MESSAGE'			=> '',
 	'MCHAT_STATIC_MESSAGE'			=> '',
-
+	
 	// Post notification messages (%1$s is replaced with a link to the new/edited post, %2$s is replaced with a link to the forum)
 	'MCHAT_NEW_POST'				=> 'erstellte einen neuen Beitrag: %1$s in %2$s',
 	'MCHAT_NEW_POST_DELETED'		=> 'erstellte einen neuen Beitrag, der gelöscht wurde',	

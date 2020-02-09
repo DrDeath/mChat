@@ -1,13 +1,13 @@
 <?php
 
 /**
- *
- * @package phpBB Extension - mChat - de language
- * @copyright (c) 2016 dmzx - http://www.dmzx-web.net
- * @copyright (c) 2016 kasimi - https://kasimi.net
- * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
- *
- */
+* @version $Id: mchat.php 169 2018-07-31 16:32:45Z Scanialady $
+* @package phpBB Extension - mChat [German]
+* @copyright (c) 2016 dmzx - https://www.dmzx-web.net
+* @copyright (c) 2016 kasimi - https://kasimi.net
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+*
+*/
 
 if (!defined('IN_PHPBB'))
 {
@@ -32,7 +32,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 //
 // Some characters for use
-// ’ » “ ” …
+// ‚ ‘ ’ « » „ “ ” …
 
 $lang = array_merge($lang, [
 	'MCHAT_ADD'						=> 'Senden',
@@ -70,7 +70,7 @@ $lang = array_merge($lang, [
 	'MCHAT_USESOUND'				=> 'Ton abspielen',
 	'MCHAT_SOUND_ON'				=> 'Ton ist an',
 	'MCHAT_SOUND_OFF'				=> 'Ton ist aus',
-	'MCHAT_ENTER'					=> 'Benutze Ctrl/Cmd + Enter für alternative Aktion',
+	'MCHAT_ENTER'					=> 'Benutze STRG + Enter für die alternative Aktion',
 	'MCHAT_ENTER_SUBMIT'			=> 'Enter sendet die Nachricht',
 	'MCHAT_ENTER_LINEBREAK'			=> 'Enter fügt eine neue Zeile hinzu',
 	'MCHAT_COLLAPSE_TITLE'			=> 'Sichtbarkeit von mChat umschalten',	
@@ -84,9 +84,5 @@ $lang = array_merge($lang, [
 	// These messages are formatted with JavaScript, hence {} and no %d
 	'MCHAT_CHARACTER_COUNT'			=> '<strong>{current}</strong> Zeichen',
 	'MCHAT_CHARACTER_COUNT_LIMIT'	=> '<strong>{current}</strong> verbraucht von {max} Zeichen',
-	'MCHAT_MENTION'					=> ' @{username} ',	
-
-	// Custom translations for administrators
-	'MCHAT_RULES_MESSAGE'			=> '',
-	'MCHAT_STATIC_MESSAGE'			=> '',
+	'MCHAT_MENTION'					=> ' @{username} ',
 ]);

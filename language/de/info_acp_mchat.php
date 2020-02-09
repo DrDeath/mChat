@@ -1,13 +1,13 @@
 <?php
 
 /**
- *
- * @package phpBB Extension - mChat - de language
- * @copyright (c) 2016 dmzx - http://www.dmzx-web.net
- * @copyright (c) 2016 kasimi - https://kasimi.net
- * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
- *
- */
+* @version $Id: info_acp_mchat.php 169 2018-07-31 16:32:45Z Scanialady $
+* @package phpBB Extension - mChat [German]
+* @copyright (c) 2016 dmzx - https://www.dmzx-web.net
+* @copyright (c) 2016 kasimi - https://kasimi.net
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+*
+*/
 
 if (!defined('IN_PHPBB'))
 {
@@ -31,8 +31,8 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 //
-// Some characters for use
-// ’ » “ ” …
+// Some characters you may want to copy&paste:
+// ‚ ‘ ’ « » „ “ ” …
 
 $lang = array_merge($lang, [
 	// Module titles
@@ -43,8 +43,8 @@ $lang = array_merge($lang, [
 
 	// Log entries (%1$s is replaced with the user name who triggered the event)
 	'LOG_MCHAT_CONFIG_UPDATE'		=> '<strong>mChat-Konfiguration geändert</strong><br />» %1$s',
-	'LOG_MCHAT_TABLE_PRUNED'		=> '<strong>mChat Nachrichten geleert: %2$d</strong><br />» %1$s',
-	'LOG_MCHAT_TABLE_PURGED'		=> '<strong>mChat Nachrichten gelöscht</strong><br />» %1$s',
-	'LOG_DELETED_MCHAT'				=> '<strong>mChat Nachricht gelöscht</strong><br />» %1$s',
-	'LOG_EDITED_MCHAT'				=> '<strong>mChat Nachricht bearbeitet</strong><br />» %1$s',
+	'LOG_MCHAT_TABLE_PRUNED'		=> '<strong>mChat-Nachrichten beschnitten: %2$d</strong>',
+	'LOG_MCHAT_TABLE_PURGED'		=> '<strong>mChat-Nachrichten bereinigt</strong><br />» %1$s',
+	'LOG_DELETED_MCHAT'				=> '<strong>mChat-Nachricht gelöscht</strong><br />» %1$s',
+	'LOG_EDITED_MCHAT'				=> '<strong>mChat-Nachricht bearbeitet</strong><br />» %1$s',
 ]);

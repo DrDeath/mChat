@@ -1,13 +1,14 @@
 <?php
 
 /**
- *
- * @package phpBB Extension - mChat - de language
- * @copyright (c) 2016 dmzx - http://www.dmzx-web.net
- * @copyright (c) 2016 kasimi - https://kasimi.net
- * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
- *
- */
+*
+* @version $Id: info_ucp_mchat.php 169 2018-07-31 16:32:45Z Scanialady $
+* @package phpBB Extension - mChat [German]
+* @copyright (c) 2016 dmzx - https://www.dmzx-web.net
+* @copyright (c) 2016 kasimi - https://kasimi.net
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+*
+*/
 
 if (!defined('IN_PHPBB'))
 {
@@ -32,7 +33,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 //
 // Some characters for use
-// ’ » “ ” …
+// ‚ ‘ ’ « » „ “ ” …
 
 $lang = array_merge($lang, [
 	'UCP_MCHAT_CONFIG' => 'mChat',
