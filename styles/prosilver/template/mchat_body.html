@@ -45,11 +45,14 @@
 				{% INCLUDE '@dmzx_mchat/mchat_header.html' %}
 				{% if MCHAT_IS_COLLAPSIBLE %}
 					<a href="{{ U_MCHAT_COLLAPSE_URL }}"
-						class="collapse-btn collapse-{{ S_MCHAT_HIDDEN ? 'show' : 'hide' }} mchat-collapse"
+						class="collapse-btn mchat-collapse"
 						data-hidden="{{ S_MCHAT_HIDDEN }}"
 						data-ajax="phpbb_collapse"
 						data-overlay="true"
-						title="{{ lang('MCHAT_COLLAPSE_TITLE') }}"></a>
+						data-title-alt="{{ lang('MCHAT_COLLAPSE_TITLE', not S_MCHAT_HIDDEN ? 1 : 0) }}"
+						title="{{ lang('MCHAT_COLLAPSE_TITLE', S_MCHAT_HIDDEN ? 1 : 0) }}">
+						<i class="fa {% if S_MCHAT_HIDDEN %}fa-plus-square{% else %}fa-minus-square{% endif %}"></i>
+					</a>	
 				{% endif %}
 			</li>
 		</ul>
@@ -84,13 +87,13 @@
 				{% EVENT dmzx_mchat_static_container_after %}
 			{% endif %}
 
-			<div id="mchat-main"{% if MCHAT_MESSAGE_TOP %} class="mchat-messages-top"{% endif %}>
+			<div id="mchat-main" class="{{ MCHAT_MESSAGE_TOP ? 'mchat-messages-top' : 'mchat-messages-bottom' }}">
 				{% EVENT dmzx_mchat_messages_container_before %}
 
 				<ul id="mchat-messages" class="topiclist forums">
 					{% if loops.mchatrow|length %}
 						{% INCLUDE '@dmzx_mchat/mchat_messages.html' %}
-					{% else %}
+					{% elseif not MCHAT_TOTAL_MESSAGES %}
 						<li class="row mchat-static mchat-no-messages">{{ lang('MCHAT_NOMESSAGE') }}</li>
 					{% endif %}
 				</ul>

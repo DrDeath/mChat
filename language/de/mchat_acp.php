@@ -44,7 +44,7 @@ $lang = array_merge($lang, [
 	'MCHAT_SETTINGS_PRUNE'							=> 'Einstellungen für Löschen (nur für Gründer einstellbar)',
 	'MCHAT_SETTINGS_LOG'							=> 'Protokolleinstellungen (nur für Gründer einstellbar)',
 	'MCHAT_SETTINGS_STATS'							=> 'Einstellungen für <em>Wer chattet</em>',
-	
+
 	'MCHAT_GLOBALUSERSETTINGS_EXPLAIN'				=> 'Einstellungen, für welche ein Benutzer <strong>KEINE</strong> Berechtigung zur Anpassung hat, werden angewendet wie unten eingestellt.<br />Neue Benutzerkonten werden die unten konfigurierten Starteinstellungen haben.<br /><br />Gehe zum <em>mChat im UCP</em>-Tab im Bereich Benutzerberechtigungen, um die Befugnisse zu einzustellen.<br />Gehe zum Formular <em>Voreinstellungen</em> im Bereich <em>Benutzer verwalten</em> um den Status der Einstellung eines jeden Benutzers zu sehen.',
 	'MCHAT_GLOBALUSERSETTINGS_OVERWRITE'			=> 'Überschreibe Einstellungen für alle Benutzer',
 	'MCHAT_GLOBALUSERSETTINGS_OVERWRITE_EXPLAIN'	=> 'Setzt die Einstellungen für <em>alle</em> Benutzerkonten wie oben definiert.',
@@ -58,7 +58,7 @@ $lang = array_merge($lang, [
 	'MCHAT_ACP_SECONDS'								=> 'Sekunden',
 	'MCHAT_ACP_HOURS'								=> 'Stunden',
 	'MCHAT_ACP_DAYS'								=> 'Tage',
-	'MCHAT_ACP_WEEKS'								=> 'Wochen',	
+	'MCHAT_ACP_WEEKS'								=> 'Wochen',
 	'MCHAT_ACP_GLOBALSETTINGS_TITLE'				=> 'mChat Globale Einstellungen',
 	'MCHAT_ACP_GLOBALUSERSETTINGS_TITLE'			=> 'mChat Globale Benutzereinstellungen',
 	'MCHAT_VERSION'									=> 'Version',
@@ -84,7 +84,7 @@ $lang = array_merge($lang, [
 	'MCHAT_PRUNE_NOW'								=> 'Jetzt die Nachrichten löschen',
 	'MCHAT_PRUNE_NOW_CONFIRM'						=> 'Löschen der Nachrichten bestätigen',
 	'MCHAT_PRUNED'									=> '%1$d mChat Nachrichten wurden gelöscht.',
-	'MCHAT_NAVBAR_LINK_COUNT'						=> 'Zeige die Anzahl der aktiven Chatsitzungen im Navbar-Link an',	
+	'MCHAT_NAVBAR_LINK_COUNT'						=> 'Zeige die Anzahl der aktiven Chatsitzungen im Navbar-Link an',
 	'MCHAT_MESSAGE_NUM_CUSTOM'						=> 'Anfängliche Anzahl von Nachrichten, die in der eigenen Chatseite angezeigt werden',
 	'MCHAT_MESSAGE_NUM_CUSTOM_EXPLAIN'				=> '<em>Du bist eingeschränkt auf Einstellungen zwischen 5 und 50. Standard ist 10.</em>',
 	'MCHAT_MESSAGE_NUM_INDEX'						=> 'Anfängliche Anzahl von Nachrichten, die auf der Indexseite angezeigt werden sollen',
@@ -98,13 +98,13 @@ $lang = array_merge($lang, [
 	'MCHAT_FLOOD_TIME'								=> 'Überflutungszeit',
 	'MCHAT_FLOOD_TIME_EXPLAIN'						=> 'Die Zeit in Sekunden, die ein Benutzer warten muß, bis er eine neue Nachricht im mChat absenden kann.<br /><em>Begrenzt auf 0 bis 3600 Sekunden. Standard ist 0. Stelle 0 ein, um die Funktion zu deaktivieren</em>',
 	'MCHAT_FLOOD_MESSAGES'							=> 'Überflutungs-Nachrichten',
-	'MCHAT_FLOOD_MESSAGES_EXPLAIN'					=> 'Die anzahl der Nachrichten, welche ein Benutzer nacheinander senden kann, ehe erforderlich wird, dass ein anderer Benutzer im Chat postet.<br><em>Begrenzt auf 0 bis 100 Nachrichten. Standard ist 0. Stelle 0 ein, um die Funktion zu deaktivieren.</em>',	
+	'MCHAT_FLOOD_MESSAGES_EXPLAIN'					=> 'Die anzahl der Nachrichten, welche ein Benutzer nacheinander senden kann, ehe erforderlich wird, dass ein anderer Benutzer im Chat postet.<br><em>Begrenzt auf 0 bis 100 Nachrichten. Standard ist 0. Stelle 0 ein, um die Funktion zu deaktivieren.</em>',
 	'MCHAT_EDIT_DELETE_LIMIT'						=> 'Zeitbegrenzung für bearbeiten und löschen von Nachrichten',
 	'MCHAT_EDIT_DELETE_LIMIT_EXPLAIN'				=> 'Nachrichten, die älter sind als die hier angegebene Anzahl Sekunden können nicht mehr durch den Verfasser bearbeitet oder gelöscht werden.<br />Benutzer mit <em>Berechtigung zum bearbeiten/löschen sowie mit Moderatorberechtigung sind ausgenommen</em> von dieser Begrenzung.<br />Um unbegrenzte Bearbeitung und Löschen zu erlauben, setze auf 0.',
 	'MCHAT_MAX_MESSAGE_LENGTH'						=> 'Maximale Nachrichtenlänge',
 	'MCHAT_MAX_MESSAGE_LENGTH_EXPLAIN'				=> 'Die maximal erlaubte Anzahl von Zeichen pro Nachricht.<br /><em>Dies ist begrenzt von 0 bis 1000. Standard ist 500. Stelle 0 ein, um die Funktion zu deaktivieren.</em>.',
 	'MCHAT_MAX_INPUT_HEIGHT'						=> 'Maximale Höhe des Eingabefeldes',
-	'MCHAT_MAX_INPUT_HEIGHT_EXPLAIN'				=> 'Das Eingabefeld wird nicht größer als diese Anzahl an Pixeln. <br><em>Dies ist begrenzt von 0 bis 1000. Standard ist 150. Stelle 0 ein, um mehrzeilige Nachrichten nicht zuzulassen.</em>',	
+	'MCHAT_MAX_INPUT_HEIGHT_EXPLAIN'				=> 'Das Eingabefeld wird nicht größer als diese Anzahl an Pixeln. <br><em>Dies ist begrenzt von 0 bis 1000. Standard ist 150. Stelle 0 ein, um mehrzeilige Nachrichten nicht zuzulassen.</em>',
 	'MCHAT_CUSTOM_PAGE'								=> 'Aktiviere mChat-Seite',
 	'MCHAT_CUSTOM_HEIGHT'							=> 'Höhe der separaten mChat-Seite',
 	'MCHAT_CUSTOM_HEIGHT_EXPLAIN'					=> 'Die Höhe der Chat-Box in Pixeln auf der eigenen mChat Seite.<br><em>Die Einstellung ist begrenzt von 50 bis 1000 Pixel. Standard ist 350.</em>.',
@@ -131,10 +131,14 @@ $lang = array_merge($lang, [
 	'MCHAT_PURGE_CONFIRM'							=> 'Bestätige die Löschung aller Nachrichten',
 	'MCHAT_PURGED'									=> 'Alle mChat Nachrichten wurden erfolgreich gelöscht',
 
+	'MCHAT_REPARSER_STATUS'							=> 'Nachrichten Reparser Status',
+	'MCHAT_REPARSER_ACTIVE'							=> 'Aktiv',
+	'MCHAT_REPARSER_FINISHED'						=> 'Beendet',
+
 	// '%1$s' enthält 'Beiträge behalten' bzw. 'Beiträge löschen'
 	'MCHAT_RETAIN_MESSAGES'							=> '%1$s und behalte mChat-Nachrichten',
 	'MCHAT_DELETE_MESSAGES'							=> '%1$s und lösche mChat-Nachrichten',
-	
+
 	// Error reporting
 	'TOO_LONG_MCHAT_BBCODE_DISALLOWED'				=> 'Der Wert für nicht erlaubte BBCodes ist zu lang.',
 	'TOO_SMALL_MCHAT_CUSTOM_HEIGHT'					=> 'Der Wert für die Höhe der mChat-Seite ist zu klein.',
@@ -142,10 +146,10 @@ $lang = array_merge($lang, [
 	'TOO_LONG_MCHAT_DATE'							=> 'Das eingegebene Datumsformat ist zu lang.',
 	'TOO_SHORT_MCHAT_DATE'							=> 'Das eingegebene Datumsformat ist zu kurz.',
 	'TOO_LARGE_MCHAT_FLOOD_TIME'					=> 'Der Wert für die Flood-Zeit ist zu groß.',
-	'TOO_LARGE_MCHAT_FLOOD_MESSAGES'				=> 'Der Wert für die Flood-Nachrichten ist zu groß.',	
+	'TOO_LARGE_MCHAT_FLOOD_MESSAGES'				=> 'Der Wert für die Flood-Nachrichten ist zu groß.',
 	'TOO_SMALL_MCHAT_INDEX_HEIGHT'					=> 'Der Wert für die Höhe im Index ist zu klein.',
 	'TOO_LARGE_MCHAT_INDEX_HEIGHT'					=> 'Der Wert für die Höhe im Index ist zu groß.',
-	'TOO_LARGE_MCHAT_MAX_INPUT_HEIGHT'				=> 'Der Wert für die maximale Höhe des Eingabefeldes ist zu groß.',	
+	'TOO_LARGE_MCHAT_MAX_INPUT_HEIGHT'				=> 'Der Wert für die maximale Höhe des Eingabefeldes ist zu groß.',
 	'TOO_SMALL_MCHAT_MESSAGE_NUM_ARCHIVE'			=> 'Die Anzahl der Nachrichten für die Anzeige auf der Archivseite ist zu klein.',
 	'TOO_LARGE_MCHAT_MESSAGE_NUM_ARCHIVE'			=> 'Die Anzahl der Nachrichten für die Anzeige auf der Archivseite ist zu groß.',
 	'TOO_SMALL_MCHAT_REFRESH'						=> 'Der Wert für die Aktualisierung ist zu klein.',
@@ -154,6 +158,6 @@ $lang = array_merge($lang, [
 	'TOO_LARGE_MCHAT_TIMEOUT'						=> 'Der Timeout-Wert für Benutzer ist zu groß.',
 	'TOO_SMALL_MCHAT_WHOIS_REFRESH'					=> 'Der Wert für <em>Wer chattet</em> ist zu klein.',
 	'TOO_LARGE_MCHAT_WHOIS_REFRESH'					=> 'Der Wert für <em>Wer chattet</em> ist zu groß.',
-	
+
 	'MCHAT_30X_REMNANTS'							=> 'Die Installation wurde abgebrochen. <br />Es befinden sich übriggebliebene Module des mChat MOD für phpBB 3.0.x in der Datenbank. Die mChat Extension funktioniert nicht korrekt, wenn diese Module vorhanden sind.<br />Du musst unbedingt den mChat MOD vollständig deinstallieren, damit es möglich ist, die mChat Extension zu installieren. Besonders die Module mit den folgenden IDs müssen gelöscht werden aus der %1$smodules Tabelle: %2$s',
 ]);
